@@ -1,0 +1,34 @@
+body {
+    font-family: $main-font;
+    font-size: $main-fontsize;
+    background-color: $body-background;
+}
+
+#topPanel {
+    margin: 0;
+    position: relative;
+}
+
+.bannerContainer {
+    padding: 0;
+}
+
+.bodyC {
+    position: relative;
+    padding: 0;
+    background-color: $off-white;
+    margin-right: -15px;
+}
+
+// Main Logo at top of page
+.clLogo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+
+.mainHead {
+    height: 110px;
+    background-color: $white;
+}
